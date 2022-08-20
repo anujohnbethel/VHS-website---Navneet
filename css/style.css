@@ -241,7 +241,7 @@ body {
 
 a,
 a:hover,
-a:focus {
+a:focus,p {
   text-decoration: none;
 }
 
@@ -866,6 +866,11 @@ a:focus {
   font-size: 24px;
   color: #ffffff;
 }
+
+
+
+.info_section .info_logo .navbar-brand p {
+  font-size:.4em;padding:0 0 0 1em;border:0;margin:0;color:white;}
 
 .info_section .info_links ul {
   padding: 0;
