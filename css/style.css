@@ -1,4 +1,7 @@
+/* @import url("fontawesome.min.css"); */
+@import url("all.min.css");
 @import url("font-awesome.min.css");
+
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
@@ -176,8 +179,13 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
+/* Changed to ".header_top .contact_link-container a TO " */
 .header_top .contact_link-container a {
+  display:inline-block;
+  color: #ffffff;
+  font-size: 15px;
+}
+/* .header_top .contact_link-container a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -186,7 +194,7 @@ body {
           align-items: center;
   color: #ffffff;
   font-size: 15px;
-}
+} */
 
 .header_top .contact_link-container a i {
   font-size: 20px;
@@ -221,6 +229,14 @@ body {
   text-transform: uppercase;
   -webkit-transition: all .2s;
   transition: all .2s;
+}
+
+.custom_nav-container .navbar-nav .nav-item.active .nav-link {
+  color:#8eec69;
+}
+
+.custom_nav-container .navbar-nav .nav-item a.nav-link:hover {
+  color:#8eec69;
 }
 
 a,
@@ -458,18 +474,23 @@ a:focus {
   transition: all .3s;
 }
 
+.service_section .box i {
+  width: 75px;
+  color: #071a52;
+}
 .service_section .box img {
   width: 75px;
 }
 
-.service_section .box:hover {
+
+.service_section .box:hover{
   background-color: #071a52;
   color: #ffffff;
   -webkit-box-shadow: 15px 15px 0 1px rgba(0, 0, 0, 0.2);
           box-shadow: 15px 15px 0 1px rgba(0, 0, 0, 0.2);
 }
 
-.service_section .box:hover img {
+.service_section .box:hover i, .service_section .box:hover img {
   -webkit-filter: brightness(0) invert(1);
           filter: brightness(0) invert(1);
 }

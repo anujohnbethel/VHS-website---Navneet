@@ -6,7 +6,8 @@ $primary2: #8eec69;
 // import fonts
 
 // fontAwesome
-@import url("font-awesome.min.css");
+@import url("fontawesome.min.css");
+//@import url("font-awesome.min.css");
 
 @mixin main-font {
   font-family: "Poppins", sans-serif;
@@ -390,7 +391,7 @@ a:focus {
     }
   }
 
-  #carouselExampleIndicators {}
+  // #carouselExampleIndicators {}
 
   .idicator_container {
     position: relative;
